@@ -58,7 +58,7 @@ export default function Home() {
             {/* Start Learning Button */}
             <Link href="/materials" className="w-full btn-float group">
                 <button className="w-full relative transform transition-all duration-200 group-hover:scale-105 active:scale-95 text-left">
-                    <div className="absolute inset-0 bg-[#E65100] rounded-2xl translate-y-1.5 opacity-50 group-hover:opacity-70 transition-all"></div>
+                    <div className="absolute inset-0 bg-[#E65100] rounded-2xl translate-y-1.5 opacity-50 group-hover:opacity-70 transition-"></div>
                     <div className="absolute inset-0 bg-[#FBC02D] rounded-2xl translate-y-1 border-b-4 md:border-b-6 border-[#E65100]"></div>
                     
                     <div className="relative bg-gradient-to-b from-[#FFFDE7] to-[#FFF9C4] p-3.5 md:p-5 rounded-2xl border-2 md:border-4 border-white flex items-center justify-between shadow-inner">
@@ -71,7 +71,7 @@ export default function Home() {
                         <PlayCircle size={26} className="text-[#FBC02D] md:size-8 group-hover:translate-x-1 transition-transform" />
                         
                         {/* Shine Effect */}
-                        <div className="absolute top-1 left-4 w-10 h-3 md:w-14 md:h-6 bg-white/40 rounded-full rotate-[-20deg] blur-[2px]"></div>
+                        <div className="absolute top-1 left-4 w-10 h-3 md:w-14 md:h-6 bg-white/40 rounded-full rotate-[deg] blur-[2px]"></div>
                     </div>
                 </button>
             </Link>

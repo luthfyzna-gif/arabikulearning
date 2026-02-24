@@ -55,13 +55,13 @@ export default function QuizzesIndex() {
                 <p className="text-[#F57F17] font-bold text-lg leading-tight">Geser kuis kesukaanmu! 👉</p>
             </div>
 
-            <div className="md:ml-auto bg-white/20 backdrop-blur-md px-6 py-3 rounded-2xl border-2 border-white/30 flex items-center gap-3">
+            {/* <div className="md:ml-auto bg-white/20 backdrop-blur-md px-6 py-3 rounded-2xl border-2 border-white/30 flex items-center gap-3">
                 <Trophy className="text-yellow-400 drop-shadow-md" size={32} />
                 <div className="text-left">
                   <p className="text-white/70 text-xs font-black uppercase leading-none">Skor Tertinggi</p>
                   <p className="text-white font-black text-xl leading-none">0 POIN</p>
                 </div>
-            </div>
+            </div> */}
         </header>
 
         {/* Horizontal Slider Container */}

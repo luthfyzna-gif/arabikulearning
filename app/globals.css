@@ -60,9 +60,9 @@ body {
   -webkit-text-stroke: 2px #E65100;
 }
 
-.btn-float { animation: float 6s ease-in-out infinite; }
-.btn-float-delay-1 { animation: float 6s ease-in-out 2s infinite; }
-.btn-float-delay-2 { animation: float 6s ease-in-out 4s infinite; }
+.btn-float { animation: none !important; }
+.btn-float-delay-1 { animation: none !important; }
+.btn-float-delay-2 { animation: none !important; }
 
 /* Custom Scrollbar for the app */
 ::-webkit-scrollbar {
